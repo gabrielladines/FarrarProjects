@@ -687,3 +687,11 @@ body {
 #typing-text {
     font-size: 50px;
 }
+
+/* slide test for design build enjoy */
+
+@media (max-width: 600px) {
+    #image-row {
+        outline: 3px solid red !important;
+    }
+}
