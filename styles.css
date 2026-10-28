@@ -11,10 +11,12 @@
 body {
     background-color: #fff0f5;
     background-image: linear-gradient(to right,
-            #98FB98 0%,
-            #fffacd 50%,
-            #FFE4E1 75%,
-            #fff0f5 100%);
+        #FFFACD 0%,
+        #FFF5D0 25%,
+        #FFF0D5 50%,
+        #FFEBD9 75%,
+        #FFE4E1 100%
+    );
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
