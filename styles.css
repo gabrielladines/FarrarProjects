@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
-@import url('https://googleapis.com');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-@font-face * {
+* {
     margin: 0;
     box-sizing: border-box;
-
 }
 
 
@@ -365,13 +365,6 @@ body {
 
 /* PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION -  */
 
-/* HORIZON FONT */
-
-@font-face {
-    font-family: 'Horizon';
-    src: url('fonts/horizon.woff2') format('woff2');
-}
-
 /* PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION -  */
 
 /* HORIZON */
@@ -379,7 +372,7 @@ body {
 #horizon {
     grid-column: 1 / 3;
 
-    font-family: 'Horizon', sans-serif;
+    font-family: 'Montserrat', 'Arial Black', sans-serif;
     text-transform: uppercase;
     font-size: 40px;
 
@@ -395,13 +388,6 @@ body {
 
 /* PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION -  */
 
-/* PJK FONT */
-
-@font-face {
-    font-family: 'PJK-Custom';
-    src: url('fonts/pjk-custom.woff2') format('woff2');
-}
-
 /* PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION -  */
 
 /* PJK */
@@ -409,7 +395,7 @@ body {
 #pjk {
     grid-column: 3 / 5;
 
-    font-family: 'PJK-Custom', Impact, sans-serif;
+    font-family: 'Montserrat', 'Arial Black', sans-serif;
     font-weight: 900;
     font-size: 40px;
 
