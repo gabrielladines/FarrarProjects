@@ -11,12 +11,11 @@
 body {
     background-color: #fff0f5;
     background-image: linear-gradient(to right,
-        #FFFACD 0%,
-        #FFF5D0 25%,
-        #FFF0D5 50%,
-        #FFEBD9 75%,
-        #FFE4E1 100%
-    );
+            #FFFACD 0%,
+            #FFF5D0 25%,
+            #FFF0D5 50%,
+            #FFEBD9 75%,
+            #FFE4E1 100%);
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-attachment: fixed;
@@ -156,7 +155,7 @@ body {
 /* DESIGN / BUILD / ENJOY SECTION - DESIGN / BUILD / ENJOY SECTION - DESIGN / BUILD / ENJOY SECTION - DESIGN / BUILD / ENJOY SECTION -  */
 
 
-#roof {
+#roof img {
     width: 400px;
     height: 400px;
 }
@@ -373,8 +372,6 @@ body {
 
 /* PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION -  */
 
-/* PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION -  */
-
 /* HORIZON */
 
 #horizon {
@@ -393,8 +390,6 @@ body {
     border-color: #B8B8B8;
     background-color: #B8B8B8;
 }
-
-/* PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION -  */
 
 /* PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION -  */
 
@@ -589,28 +584,32 @@ body {
     }
 
     @media (max-width: 600px) {
-    
-        #image-row {
-        display: flex;
-        flex-direction: row;
-        overflow-x: auto;
-        overflow-y: hidden;
-        gap: 15px;
-        scroll-snap-type: x mandatory;
-        padding: 0 20px;
-    }
 
-    #image-row img {
-        width: 80vw;
-        height: 55vw;
-        flex-shrink: 0;
-        object-fit: cover;
-        margin-left: 0;
-        margin-top: 50px;
-        scroll-snap-align: center;
-    }
-    
-    
+        #image-row {
+            display: flex;
+            flex-direction: row;
+            overflow-x: auto;
+            overflow-y: hidden;
+            gap: 13px;
+            scroll-snap-type: x mandatory;
+            padding: 0 20px;
+        }
+
+        #roof {
+            margin-top: 20px;
+        }
+
+        #image-row img {
+            width: 50vw;
+            height: 50vw;
+            flex-shrink: 0;
+            object-fit: cover;
+            margin-left: 0;
+            margin-top: 50px;
+            scroll-snap-align: center;
+        }
+
+
     }
 
 
