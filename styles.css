@@ -588,6 +588,31 @@ body {
         white-space: normal;
     }
 
+    @media (max-width: 600px) {
+    
+        #image-row {
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        overflow-y: hidden;
+        gap: 15px;
+        scroll-snap-type: x mandatory;
+        padding: 0 20px;
+    }
+
+    #image-row img {
+        width: 80vw;
+        height: 55vw;
+        flex-shrink: 0;
+        object-fit: cover;
+        margin-left: 0;
+        margin-top: 50px;
+        scroll-snap-align: center;
+    }
+    
+    
+    }
+
 
     /* COMPLETED PROJECTS */
 
