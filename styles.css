@@ -43,6 +43,24 @@ body {
     text-align: center;
 }
 
+#phone button {
+    background-color: #F2F2F2;
+    box-shadow: 10px 10px;
+    margin-bottom: 20px;
+}
+
+#email button {
+    background-color: #F2F2F2;
+    box-shadow: 10px 10px;
+    margin-bottom: 20px;
+}
+
+#instagram button {
+    background-color: #F2F2F2;
+    box-shadow: 10px 10px;
+    margin-bottom: 10px;
+}
+
 
 /* TITLE TYPE WRITER & INTRODUCTION - TITLE TYPE WRITER & INTRODUCTION - TITLE TYPE WRITER & INTRODUCTION -  */
 
@@ -101,11 +119,15 @@ body {
     color: gray;
     font-weight: 1000;
     font-family: 'Lato', sans-serif;
-    padding-top: 290px;
+    margin-top: 290px;
     font-size: 20px;
     margin-right: 50px;
     padding-right: 130px;
-    padding-left: 130px;
+    padding-left: 20px;
+    margin-left: 130px;
+    background-color: #D7E5D2;
+    box-shadow: 10px 10px;
+    border-radius: 7px;
 }
 
 /* INTRODUCTION SECTION - INTRODUCTION SECTION - INTRODUCTION SECTION - INTRODUCTION SECTION - INTRODUCTION SECTION -  */
@@ -113,6 +135,9 @@ body {
 #right-text-function h2 {
     font-size: 40px;
     margin-bottom: 3px;
+    margin-left: 100px;
+    padding-left: 10px;
+    background-color: #D7E5D2;
 }
 
 /* DESIGN / BUILD / ENJOY SECTION - DESIGN / BUILD / ENJOY SECTION - DESIGN / BUILD / ENJOY SECTION - DESIGN / BUILD / ENJOY SECTION -  */
@@ -169,6 +194,8 @@ body {
     margin-left: 170px;
     font-size: larger;
     padding-bottom: 2px;
+    background-color: #EBF9E6;
+    /* box-shadow: 10px 10px; */
 
 }
 
@@ -180,7 +207,10 @@ body {
     font-weight: 1000;
     margin-left: 170px;
     font-size: larger;
-    padding-bottom: 200px;
+    /* padding-bottom: 200px; */
+    margin-bottom: 200px;
+    background-color: #EBF9E6;
+    box-shadow: 10px 10px;
 
 }
 
@@ -193,6 +223,7 @@ body {
     margin-left: 170px;
     font-size: larger;
     padding-bottom: 2px;
+    background-color: #EBF9E6;
 }
 
 /* DESIGN / BUILD / ENJOY SECTION - DESIGN / BUILD / ENJOY SECTION - DESIGN / BUILD / ENJOY SECTION - DESIGN / BUILD / ENJOY SECTION -  */
@@ -204,7 +235,10 @@ body {
     font-size: larger;
     /* padding-bottom: 30px; */
     font-weight: 1000;
-    padding-bottom: 200px;
+    /* padding-bottom: 200px; */
+    margin-bottom: 200px;
+    background-color: #EBF9E6;
+    box-shadow: 10px 10px;
 }
 
 /* DESIGN / BUILD / ENJOY SECTION - DESIGN / BUILD / ENJOY SECTION - DESIGN / BUILD / ENJOY SECTION - DESIGN / BUILD / ENJOY SECTION -  */
@@ -215,7 +249,9 @@ body {
     margin-left: 170px;
     font-size: larger;
     padding-bottom: 2px;
-    padding-right: 700px;
+    padding-right: 10px;
+    background-color: #EBF9E6;
+    margin-right: 10px;
 }
 
 /* DESIGN / BUILD / ENJOY SECTION - DESIGN / BUILD / ENJOY SECTION - DESIGN / BUILD / ENJOY SECTION - DESIGN / BUILD / ENJOY SECTION -  */
@@ -228,7 +264,11 @@ body {
     font-size: larger;
     /* padding-bottom: 30px; */
     white-space: nowrap;
-    padding-bottom: 200px;
+    /* padding-bottom: 200px; */
+    margin-bottom: 200px;
+    background-color: #EBF9E6;
+    box-shadow: 10px 10px;
+    margin-right: 10px;
 }
 
 
@@ -532,23 +572,25 @@ body {
 
     /* INTRODUCTION */
 
-    .right-text-function {
-        width: 100%;
-    }
-
     #right-text-function {
-        padding-top: 50px;
-        padding-left: 30px;
+        margin-top: 50px;
+        margin-left: 10px;
+        margin-right: 20px;
+        padding-left: 0 30px;
         padding-right: 30px;
-        margin-right: 0;
-        font-size: 18px;
-        text-align: center;
+        padding-bottom: 20px;
+        font-size: 15px;
+        text-align: justify;
+        width: auto;
+        /* box-sizing: border-box; */
+
     }
 
     #right-text-function h2 {
         font-size: 30px;
+        margin-left: 0;
+        margin-right: 35px;
     }
-
 
     /* DESIGN / BUILD / ENJOY */
 
@@ -597,6 +639,16 @@ body {
 
         #roof {
             margin-top: 20px;
+            margin-right: 20px;
+        }
+
+        #roof h3 {
+            padding-right: 20px;
+        }
+
+        #roof p {
+            padding-right: 20px;
+            /* margin-bottom: 20px; */
         }
 
         #image-row img {
@@ -608,6 +660,8 @@ body {
             margin-top: 50px;
             scroll-snap-align: center;
         }
+
+
 
 
     }
