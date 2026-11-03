@@ -24,7 +24,7 @@ body {
 
 /* CONTACT TOP SECTION - CONTACT TOP SECTION - CONTACT TOP SECTION - CONTACT TOP SECTION - */
 
-#contact-top {
+#top-contact {
     color: white;
     text-align: center;
     background-color: rgb(185, 185, 185);
@@ -38,11 +38,14 @@ body {
     margin: 0;
 }
 
-#contact-top p {
+#top-contact p {
     color: white;
     text-align: center;
 }
 
+#phone {
+    
+}
 
 /* TITLE TYPE WRITER & INTRODUCTION - TITLE TYPE WRITER & INTRODUCTION - TITLE TYPE WRITER & INTRODUCTION -  */
 
@@ -504,7 +507,7 @@ body {
 
     /* CONTACT TOP */
 
-    #contact-top {
+    #top-contact {
         width: 100%;
         padding: 10px;
     }
