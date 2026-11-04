@@ -327,9 +327,10 @@ body {
 /* HEADING */
 
 #image-wrapper1 h1 {
-    color: gray;
+    color: #333333;
     font-size: 80px;
     margin-bottom: 100px;
+    box-shadow: 10px 10px;
 }
 
 /* PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION - PREVIOUSLY WORKED WITH SECTION -  */
@@ -493,7 +494,7 @@ body {
     font-family: 'Lato', sans-serif;
     margin-left: -10px;
     margin-right: -10px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: -8px;
 
 }
@@ -508,13 +509,16 @@ body {
     overflow-y: hidden;
     scroll-behavior: smooth;
     cursor: grab;
+    flex-wrap: nowrap;
 }
 
 #gallery-title {
-    color: gray;
+    color: #333333;
     font-size: 40px;
-    margin-bottom: 2px;
-    margin-left: 400px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    box-shadow: 10px 10px;
+    margin-right: 775px;
 }
 
 #slide_container:active {
@@ -534,7 +538,21 @@ body {
 }
 
 
+#location h2 {
+    color: gray;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 40px;
+}
 
+#location ul {
+    color: gray;
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 30px;
+    margin-bottom: none;
+    list-style-type: "⭐";
+}
 
 
 
@@ -685,6 +703,8 @@ body {
         font-size: 45px;
         text-align: center;
         margin-bottom: 50px;
+        margin-right: 20px;
+        box-shadow: 8px 8px;
     }
 
 
@@ -721,6 +741,9 @@ body {
     #gallery-title {
         font-size: 30px;
         margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        box-shadow: 8px 8px;
     }
 
     #slide_container {
